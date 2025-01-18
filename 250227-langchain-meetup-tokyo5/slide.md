@@ -1,19 +1,30 @@
 ---
 marp: true
 theme: original
+style: |
+  .speaker, .date {
+    text-align: center;
+    width: 100%;
+    margin: 10px 0;
+  }
+  img {
+    display: block;
+    margin: 0 auto;
+  }
+  h1 {
+    text-align: center;
+  }
 ---
 
-<!-- header: "LangChain の TypeScript と Slack next gen platform で Agentic RAG を構築してみた" ---> これ以降の全てのスライドに適用
-<!-- footer: "LangChain Meetup Tokyo 5" ---> 指定したスライドのみに適用
+<!-- header: "LangChain の TypeScript と Slack next gen platform で Agentic RAG を構築してみた" -->
+<!-- footer: "LangChain Meetup Tokyo 5" -->
 
 # LangChain の TypeScript と Slack next gen platform で Agentic RAG を構築してみた
 
 ![w:300](../images/chaspy.jpg)
 
-<!-- 名前やSNSアカウントなど -->
 <div class="speaker">Takeshi Kondo / @chaspy</div>
 
-<!-- 日付・イベント名など -->
 <div class="date">2025/02/27<br>LangChain Meetup Tokyo 5</div>
 
 ---
