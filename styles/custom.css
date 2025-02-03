@@ -1,0 +1,84 @@
+/* @Theme custom */
+@import "gaia";
+
+/* General Slide Styling */
+section {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    padding: 40px;
+    background-color: #ffffff;
+    text-align: left;
+  }
+  
+  /* Title Slide */
+  h1 {
+    font-size: 2.5em;
+    color: #005613;
+    margin-bottom: 0.5em;
+  }
+  
+  h2 {
+    font-size: 1.5em;
+    color: #007bff;
+  }
+  
+  /* Header for all slides */
+  h1 {
+    font-size: 2em;
+    color: #0056b3;
+  }
+  
+  h2 {
+    font-size: 1.5em;
+    color: #343a40;
+  }
+  
+  /* List items */
+  ul {
+    list-style-type: disc;
+    margin-left: 20px;
+  }
+  
+  ul li {
+    font-size: 1.2em;
+    margin-bottom: 0.5em;
+    color: #333;
+  }
+  
+  /* Strong emphasis text */
+  strong {
+    color: #e74c3c;
+  }
+  
+  /* Footer Styling */
+  footer {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    font-size: 0.8em;
+    color: #868e96;
+  }
+  
+  /* Special Slide Classes */
+  
+  /* Blue background with white text, for highlight sections */
+  section.blue-bg {
+    background-color: #0056b3;
+    color: #ffffff;
+  }
+  
+  section.blue-bg h1, section.blue-bg h2, section.blue-bg ul li {
+    color: #ffffff;
+  }
+  
+  /* Q&A Slide Styling */
+  section.qanda h1 {
+    font-size: 2.5em;
+    color: #e74c3c;
+  }
+  
+  section.qanda p {
+    font-size: 1.2em;
+    color: #495057;
+  }
+  
