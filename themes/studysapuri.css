@@ -1,15 +1,15 @@
+/* @theme studysapuri */
 
-
-  :root {
+:root {
     --white: #ffffff;
     --text-black: #24243f;
     --text-sub: #808d96;
     --sapuri-blue: #0b41a0;
     --caution-pink: #de30ca;
     --action-green-plus: #36a4a1;
-  }
+}
 
-  section {
+section {
     width: 1280px;
     height: 720px;
 
